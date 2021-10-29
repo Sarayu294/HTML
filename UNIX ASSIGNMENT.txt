@@ -20,7 +20,7 @@ page no:41
 10.wc -l employeelist
 
 page no:47
-1.cat File11
+1.cat >File11
 2.cat >>File11
 3.cat >File12
 4.cat File11 File12
