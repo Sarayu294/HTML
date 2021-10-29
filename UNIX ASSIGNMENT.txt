@@ -1,0 +1,37 @@
+                                                                      UNIX ASSIGNMENT
+page no:41 
+1.mkdir Test
+2.cat >employeelist
+  cat >skillset
+3.mkdir Test2
+  ** ln -s file1 sskillset
+  ln file1 skillset
+  ** rm skillset
+  ** The main difference b/w soft link and hard link
+      A symbolic link is an actual link to the original file, whereas a hard link is a mirror copy of the original file.
+  If we delete the original file, the soft link has no value, because it points to a non-existent file(void).
+  In hard link Even if you delete the original file, the hard link will still has the content of the original file but the link count decrease.
+4.chmod g+wr test
+5.chmod g-w test
+6.chmod o+w file
+7.chmod o-w file
+8.chgrp user3 employeelist
+9.chown user5 employeelist
+10.wc -l employeelist
+
+page no:47
+1.vi File11
+2.cat >>File11
+3.cat >File12
+4.cat File11 File12
+5.cat File11>File12
+6.cat File11 File12 >File13
+7.cat File11 File12 File13 File14 File15
+8.cat File11 File12 File13 File14 File15 2>errorlog
+9.cat File11 File12 File13 File14 File15 >file10 2>&1
+10.cp File11 File12 2>errorlog
+
+page no:55
+1.head -25 File11 | tail +10
+2.head -10 File11 | tail +10
+3.ls -t | head -1
