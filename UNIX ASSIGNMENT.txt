@@ -20,18 +20,18 @@ page no:41
 10.wc -l employeelist
 
 page no:47
-1.cat >File11
-2.cat >>File11
-3.cat >File12
-4.cat File11 File12
-5.cat File11>File12
-6.cat File11 File12 >File13
-7.cat File11 File12 File13 File14 File15
-8.cat File11 File12 File13 File14 File15 2>errorlog
-9.cat File11 File12 File13 File14 File15 >file10 2>&1
-10.cp File11 File12 2>errorlog
+1.cat >File1
+2.cat >>File1
+3.cat >File2
+4.cat File1 File2
+5.cat File1>File2
+6.cat File1 File2 >File3
+7.cat File1 File2 File3 File4 File5
+8.cat File1 File2 File3 File4 File5 2>errorlog
+9.cat File1 File2 File3 File4 File5 >file10 2>&1
+10.cp File1 File2 2>errorlog
 
 page no:55
-1.head -25 File11 | tail +10
-2.head -10 File11 | tail +10
+1.head -25 File1 | tail +10
+2.head -10 File1 | tail +10
 3.ls -t | head -1
